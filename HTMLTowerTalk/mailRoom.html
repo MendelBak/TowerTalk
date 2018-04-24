@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="firefox">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tower Talk</title>
+</head>
+
+<body id="mailRoomBody">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tower Talk</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mail Room</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Announcements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Marketplace</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Report An Issue</a>
+                </li>
+            </ul>
+        </div>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login/Register</button>
+    </nav>
+
+        <div id="mailRoomJumbotron"  class="jumbotron">
+            <p>You're picking up </p>
+            <h1 id="numPackages">2</h1>
+            <p>packages today.</p>
+        </div>
+
+        <form action="">
+            <input id="packageSignature" type="text" placeholder="Unit Owner Signature">
+        </form>
+
+        <div id="mailRoomButtons">
+            <input type="image" class="innerButton" src="./img/leftArrow.png" alt="Left arrow">
+            <input type="image" class="innerButton" src="./img/checkmark.png" alt="Checkmark / submit">
+            <input type="image" class="innerButton" src="./img/rightArrow.png" alt="Right arrow">
+        </div>
+
+</body>
+
+</html>
